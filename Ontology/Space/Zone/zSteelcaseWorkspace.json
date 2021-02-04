@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:com:steelcase:Workspace;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Workspace"
+  },
+  "extends" : [
+    "dtmi:com:steelcase:Zone;1",
+    "dtmi:digitaltwins:rec_3_3:core:Workspace;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

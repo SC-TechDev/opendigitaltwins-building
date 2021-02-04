@@ -1,0 +1,15 @@
+{
+  "@id": "dtmi:com:steelcase:Zone;1",
+  "@type": "Interface",
+  "description": {
+    "en": "A sub-zone within a building, e.g., an HVAC zone, a security zone, etc."
+  },
+  "displayName": {
+    "en": "Zone"
+  },
+  "extends" : [
+    "dtmi:com:steelcase:Space;1",
+    "dtmi:digitaltwins:rec_3_3:core:Zone;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

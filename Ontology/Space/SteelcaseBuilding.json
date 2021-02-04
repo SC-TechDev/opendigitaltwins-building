@@ -1,0 +1,74 @@
+{
+  "@id": "dtmi:com:steelcase:Building;1",
+  "@type": "Interface",
+  "extends" : [
+    "dtmi:com:steelcase:Space;1",
+    "dtmi:digitaltwins:rec_3_3:core:Building;1"
+  ],
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "address",
+      "displayName": {
+        "en": "Address"
+      },
+      "writable": true,
+      "schema": {
+        "@id": "dtmi:com:Steelcase:Address;1",
+        "@type": "Object",
+        "fields" : [
+          {
+            "name": "address1",
+            "displayName": {
+              "en": "Address 1"
+            },
+            "schema": "string"
+          },
+          {
+            "name": "address2",
+            "displayName": {
+              "en": "Address 2"
+            },
+            "schema": "string"
+          },
+          {
+            "name": "city",
+            "displayName": {
+              "en": "City"
+            },
+            "schema": "string"
+          },
+          {
+            "name": "region",
+            "displayName": {
+              "en": "Region (State)"
+            },
+            "schema": "string",
+            "comment": "state"
+          },
+          {
+            "name": "country",
+            "displayName": {
+              "en": "Country"
+            },
+            "schema": "string"
+          },
+          {
+            "name": "postalCode",
+            "displayName": {
+              "en": "Postal Code"
+            },
+            "schema": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "description": {
+    "en": "A confined building structure."
+  },
+  "displayName": {
+    "en": "Building"
+  },
+  "@context": "dtmi:dtdl:context;2"
+}
