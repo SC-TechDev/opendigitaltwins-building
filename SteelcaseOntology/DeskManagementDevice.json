@@ -59,7 +59,7 @@
       },
       "name": "linkedTo",
       "target": "dtmi:digitaltwins:rec_3_3:core:Space;1"
-    },
+    }
   ],
   "description": {
     "en": "A Desk Management Device that can be linked to a Space in order to reflect occupancy"
