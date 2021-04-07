@@ -1,0 +1,11 @@
+{
+    "@id": "dtmi:com:steelcase:Seat;1",
+    "@type": "Interface",
+    "displayName": {
+      "en": "Seat"
+    },
+    "extends" : [
+      "dtmi:com:steelcase:Space;1"
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }

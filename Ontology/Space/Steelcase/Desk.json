@@ -1,0 +1,12 @@
+{
+    "@id": "dtmi:com:steelcase:Desk;1",
+    "@type": "Interface",
+    "displayName": {
+      "en": "Desk"
+    },
+    "extends" : [
+      "dtmi:com:steelcase:Space;1",
+      "dtmi:com:steelcase:WorkSurface;1"
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,23 @@
+{
+  "@id": "dtmi:com:steelcase:Company;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Unique ID"
+      },
+      "name": "uniqueID",
+      "schema": "string",
+      "writable": true
+    }
+  ],
+  "displayName": {
+    "en": "Company"
+  },
+  "extends": [
+    "dtmi:com:steelcase:Organization;1",
+    "dtmi:digitaltwins:rec_3_3:agents:Company;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

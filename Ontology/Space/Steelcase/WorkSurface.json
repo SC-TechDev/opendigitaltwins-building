@@ -1,0 +1,11 @@
+{
+    "@id": "dtmi:com:steelcase:WorkSurface;1",
+    "@type": "Interface",
+    "displayName": {
+      "en": "Worksurface"
+    },
+    "extends" : [
+      "dtmi:com:steelcase:Space;1"
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }
