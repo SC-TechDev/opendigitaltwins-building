@@ -1,0 +1,71 @@
+{
+  "@id": "dtmi:com:steelcase:DeskManagementDevice;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "description": {
+        "en": "The MAC address of the device"
+      },
+      "displayName": {
+        "en": "MAC Address"
+      },
+      "name": "macAddress",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "description": {
+        "en": "The serial number of the device"
+      },
+      "displayName": {
+        "en": "Serial Number"
+      },
+      "name": "serialNumber",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "description": {
+        "en": "Status of the device led on/off"
+      },
+      "name": "isLedOn",
+      "displayName": {
+        "en": "Is Led On"
+      },
+      "writable": true,
+      "schema": "boolean"
+    },
+    {
+      "@type": "Relationship",
+      "description": {
+        "en": "Property that defines the legal owner(s) of a given entity. Inverse of: owns"
+      },
+      "displayName": {
+        "en": "owned by"
+      },
+      "name": "ownedBy",
+      "target": "dtmi:digitaltwins:rec_3_3:core:Agent;1"
+    },
+    {
+      "@type": "Relationship",
+      "description": {
+        "en": "Property that defines the space to which the device is linked."
+      },
+      "displayName": {
+        "en": "Linked To"
+      },
+      "name": "linkedTo",
+      "target": "dtmi:digitaltwins:rec_3_3:core:Space;1"
+    },
+  ],
+  "description": {
+    "en": "A Desk Management Device that can be linked to a Space in order to reflect occupancy"
+  },
+  "displayName": {
+    "en": "Desk Management Device"
+  },
+  "@context": "dtmi:dtdl:context;2"
+}
