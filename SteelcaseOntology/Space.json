@@ -11,6 +11,15 @@
       },
       "writable": true,
       "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "calendaringResource",
+      "displayName": {
+        "en": "Calendaring Resource"
+      },
+      "writable": true,
+      "schema": "string"
     }
   ],
   "description": {
