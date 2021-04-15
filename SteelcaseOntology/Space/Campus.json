@@ -1,73 +1,17 @@
 {
-    "@id": "dtmi:com:steelcase:Campus;1",
-    "@type": "Interface",
-    "contents": [
-        {
-          "@type": "Property",
-          "name": "address",
-          "displayName": {
-            "en": "Address"
-          },
-          "writable": true,
-          "schema": {
-            "@id": "dtmi:com:Steelcase:Address;1",
-            "@type": "Object",
-            "fields" : [
-              {
-                "name": "address1",
-                "displayName": {
-                  "en": "Address 1"
-                },
-                "schema": "string"
-              },
-              {
-                "name": "address2",
-                "displayName": {
-                  "en": "Address 2"
-                },
-                "schema": "string"
-              },
-              {
-                "name": "city",
-                "displayName": {
-                  "en": "City"
-                },
-                "schema": "string"
-              },
-              {
-                "name": "region",
-                "displayName": {
-                  "en": "Region (State)"
-                },
-                "schema": "string",
-                "comment": "state"
-              },
-              {
-                "name": "country",
-                "displayName": {
-                  "en": "Country"
-                },
-                "schema": "string"
-              },
-              {
-                "name": "postalCode",
-                "displayName": {
-                  "en": "Postal Code"
-                },
-                "schema": "string"
-              }
-            ]
-          }
-        }
-      ],
-    "description": {
-      "en": "An arangement of buildings"
-    },
-    "displayName": {
-      "en": "Campus"
-    },
-    "extends" : [
-      "dtmi:com:steelcase:Space;1"
-    ],
-    "@context": "dtmi:dtdl:context;2"
-  }
+  "@id": "dtmi:com:steelcase:Campus;1",
+  "@type": "Interface",
+  "extends" : [
+    "dtmi:com:steelcase:Space;1"
+  ],
+  "contents": [
+
+  ],
+  "description": {
+    "en": "An arangement building structure."
+  },
+  "displayName": {
+    "en": "Campus Space"
+  },
+  "@context": "dtmi:dtdl:context;2"
+}
