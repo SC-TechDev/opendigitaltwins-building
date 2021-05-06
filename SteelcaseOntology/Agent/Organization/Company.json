@@ -4,12 +4,87 @@
   "contents": [
     {
       "@type": "Property",
-      "displayName": {
-        "en": "Unique ID"
+      "description": {
+        "en": "The official name of the customer"
       },
-      "name": "uniqueID",
+      "displayName": {
+        "en": "Official Name"
+      },
+      "name": "officialName",
       "schema": "string",
       "writable": true
+    },
+    {
+      "@type": "Property",
+      "description": {
+        "en": "The friendly name of the customer"
+      },
+      "name": "friendlyName",
+      "displayName": {
+        "en": "Friendly Name"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "description": {
+        "en": "Customer's subscription type"
+      },
+      "name": "subscriptionType",
+      "displayName": {
+        "en": "Subscription Type"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "description": {
+        "en": "The email of the customer's admin contact"
+      },
+      "name": "adminEmail",
+      "displayName": {
+        "en": "Admin Email"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "description": {
+        "en": "The first name of the customer"
+      },
+      "name": "firstName",
+      "displayName": {
+        "en": "First Name"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "description": {
+        "en": "The last name of the customer"
+      },
+      "name": "lastName",
+      "displayName": {
+        "en": "Last Name"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "description": {
+        "en": "The customer's phone number"
+      },
+      "name": "phoneNumber",
+      "displayName": {
+        "en": "Phone Number"
+      },
+      "writable": true,
+      "schema": "string"
     }
   ],
   "displayName": {
