@@ -1,0 +1,57 @@
+{
+    "@id": "dtmi:com:steelcase:Subscription;1",
+    "@type": "Interface",
+    "contents": [
+        {
+            "@type": "Property",
+            "description": {
+              "en": "The name of the subscription"
+            },
+            "displayName": {
+              "en": "Name"
+            },
+            "name": "name",
+            "schema": "string",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "displayName": {
+              "en": "Start Time"
+            },
+            "name": "startTime",
+            "schema": "dateTime",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "displayName": {
+              "en": "Expiration Time"
+            },
+            "name": "expirationTime",
+            "schema": "dateTime",
+            "writable": true
+        },
+        {
+            "@type": "Relationship",
+            "description": {
+              "en": "Property that defines the beficiary company of a subscription"
+            },
+            "displayName": {
+              "en": "assigned to"
+            },
+            "name": "assignedTo",
+            "target": "dtmi:com:steelcase:Company;1"
+        }
+    ],
+    "description": {
+      "en": "The subscription information of a customer"
+    },
+    "displayName": {
+      "en": "Subscription"
+    },
+    "extends" : [
+      
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }

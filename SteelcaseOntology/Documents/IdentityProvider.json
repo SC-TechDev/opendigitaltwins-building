@@ -1,0 +1,84 @@
+{
+    "@id": "dtmi:com:steelcase:IdentityProvider;1",
+    "@type": "Interface",
+    "contents": [
+        {
+            "@type": "Property",
+            "description": {
+              "en": "The id of the tenant"
+            },
+            "displayName": {
+              "en": "Tenant ID"
+            },
+            "name": "tenantId",
+            "schema": "string",
+            "writable": true
+        },
+        {
+          "@type": "Property",
+          "description": {
+            "en": "The id of the client"
+          },
+          "displayName": {
+            "en": "Client ID"
+          },
+          "name": "clientId",
+          "schema": "string",
+          "writable": true
+        },
+        {
+          "@type": "Property",
+          "description": {
+            "en": "The type of the identity provider"
+          },
+          "displayName": {
+            "en": "Identity Provider Type"
+          },
+          "name": "type",
+          "schema": "string",
+          "writable": true
+        },
+        {
+          "@type": "Property",
+          "description": {
+            "en": "The domain of the tenant"
+          },
+          "displayName": {
+            "en": "Domain"
+          },
+          "name": "domain",
+          "schema": "string",
+          "writable": true
+        },
+        {
+            "@type": "Property",
+            "displayName": {
+              "en": "Expiration Time"
+            },
+            "name": "expirationTime",
+            "schema": "dateTime",
+            "writable": true
+        },
+        {
+            "@type": "Relationship",
+            "description": {
+              "en": "Property that defines the company of an identity provider"
+            },
+            "displayName": {
+              "en": "assigned to"
+            },
+            "name": "assignedTo",
+            "target": "dtmi:com:steelcase:Company;1"
+        }
+    ],
+    "description": {
+      "en": "The identity provider information of a customer"
+    },
+    "displayName": {
+      "en": "Identity Provider"
+    },
+    "extends" : [
+      
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }
