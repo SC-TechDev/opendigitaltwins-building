@@ -20,6 +20,15 @@
       },
       "writable": true,
       "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "isBooked",
+      "displayName": {
+        "en": "Is Booked"
+      },
+      "writable": true,
+      "schema": "boolean"
     }
   ],
   "description": {

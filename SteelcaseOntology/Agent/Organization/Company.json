@@ -29,18 +29,6 @@
     {
       "@type": "Property",
       "description": {
-        "en": "Customer's subscription type"
-      },
-      "name": "subscriptionType",
-      "displayName": {
-        "en": "Subscription Type"
-      },
-      "writable": true,
-      "schema": "string"
-    },
-    {
-      "@type": "Property",
-      "description": {
         "en": "The email of the customer's admin contact"
       },
       "name": "adminEmail",
@@ -53,11 +41,11 @@
     {
       "@type": "Property",
       "description": {
-        "en": "The first name of the customer"
+        "en": "The first name of the customer admin"
       },
-      "name": "firstName",
+      "name": "adminFirstName",
       "displayName": {
-        "en": "First Name"
+        "en": "Admin First Name"
       },
       "writable": true,
       "schema": "string"
@@ -65,11 +53,11 @@
     {
       "@type": "Property",
       "description": {
-        "en": "The last name of the customer"
+        "en": "The last name of the customer admin"
       },
-      "name": "lastName",
+      "name": "adminLastName",
       "displayName": {
-        "en": "Last Name"
+        "en": "Admin Last Name"
       },
       "writable": true,
       "schema": "string"
@@ -77,11 +65,11 @@
     {
       "@type": "Property",
       "description": {
-        "en": "The customer's phone number"
+        "en": "The customer's admin phone number"
       },
-      "name": "phoneNumber",
+      "name": "adminPhoneNumber",
       "displayName": {
-        "en": "Phone Number"
+        "en": "Admin Phone Number"
       },
       "writable": true,
       "schema": "string"
