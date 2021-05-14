@@ -27,52 +27,12 @@
       "schema": "string"
     },
     {
-      "@type": "Property",
-      "description": {
-        "en": "The email of the customer's admin contact"
-      },
-      "name": "adminEmail",
+      "@type": "Component",
+      "name": "admin",
       "displayName": {
-        "en": "Admin Email"
+        "en": "Admin"
       },
-      "writable": true,
-      "schema": "string"
-    },
-    {
-      "@type": "Property",
-      "description": {
-        "en": "The first name of the customer admin"
-      },
-      "name": "adminFirstName",
-      "displayName": {
-        "en": "Admin First Name"
-      },
-      "writable": true,
-      "schema": "string"
-    },
-    {
-      "@type": "Property",
-      "description": {
-        "en": "The last name of the customer admin"
-      },
-      "name": "adminLastName",
-      "displayName": {
-        "en": "Admin Last Name"
-      },
-      "writable": true,
-      "schema": "string"
-    },
-    {
-      "@type": "Property",
-      "description": {
-        "en": "The customer's admin phone number"
-      },
-      "name": "adminPhoneNumber",
-      "displayName": {
-        "en": "Admin Phone Number"
-      },
-      "writable": true,
-      "schema": "string"
+      "schema": "dtmi:com:steelcase:Admin;1"
     }
   ],
   "displayName": {
